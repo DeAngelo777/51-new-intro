@@ -1,0 +1,26 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "description": "A sample project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "next dev",
+    "build": "next build",
+    "test": "jest",
+    "watch": "node --watch ./index.js"
+
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "next": "latest",
+    "npm-watch": "^0.13.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "watch": "^1.0.2"
+  },
+  "devDependencies": {
+    "jest": "latest"
+  }
+}
