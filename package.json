@@ -8,7 +8,12 @@
     "dev": "next dev",
     "build": "next build",
     "test": "jest",
-    "watch": "node --watch ./index.js"
+    "watch": "node --watch ./string.js",
+    "boolean": "node --watch ./boolean.js",
+    "index": "node --watch ./index.js",
+    "array": "node --watch ./array.js",
+    "object": "node --watch ./object.js",
+    "nd": "node --watch ./nd.js"
 
   },
   "author": "Your Name",
