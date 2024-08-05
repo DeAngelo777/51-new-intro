@@ -1,3 +1,5 @@
+"use strict";
+
 /*
 N.D.
 
@@ -23,7 +25,7 @@ Prekiu krepselio verte yra TOTAL KAINA Eur.
 
 
 
-const prekes = [
+prekes = [
     {
     krepselis: 1,
     pavadinimas: 'Bulves',

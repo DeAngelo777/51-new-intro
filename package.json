@@ -13,7 +13,21 @@
     "index": "node --watch ./index.js",
     "array": "node --watch ./array.js",
     "object": "node --watch ./object.js",
-    "nd": "node --watch ./nd.js"
+    "nd": "node --watch ./nd.js",
+    "null": "node --watch ./null.js",
+    "if": "node --watch ./if.js",
+    "ternary": "node --watch ./ternary.js",
+    "functions": "node --watch ./functions.js",
+    "suma-intervale": "node --watch ./suma-intervale.js",
+    "type-of": "node --watch ./type-of.js",
+    "string-reverse": "node --watch ./string-reverse"
+
+
+
+
+
+
+
 
   },
   "author": "Your Name",

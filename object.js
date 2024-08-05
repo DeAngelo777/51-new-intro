@@ -93,4 +93,37 @@ console.log(carsale3);
 console.clear();
 
 
+// dinaminis reiksmiu priskyrimas
 
+
+const zoo = {
+    liutas: 2,
+
+};
+
+console.log(zoo.liutas);
+zoo.liutas += 3 ;
+
+console.log(zoo);
+
+
+zoo.dramblys = 1;
+
+console.log(zoo);
+
+zoo.dramblys +=2;
+
+console.log(zoo);
+
+
+
+zoo.lape = 4;
+
+console.log(zoo);
+
+const marks = [10, 2, 5, 6];
+
+console.log(marks);
+
+marks[1] = 10;
+console.log(marks);
