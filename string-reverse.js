@@ -13,10 +13,11 @@ function stringReverse(str) {
     let reversedString = '';
 
     // Logika
+    //Uzduotis: žinoti daugiau budu
+
     // for (let i = str.length-1; i >=0; i--) {
     //     reversedString += str[i];
     // }
-
         for (let i = 0; i < str.length; i++) {
         reversedString = str[i] + reversedString;
     }

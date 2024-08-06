@@ -20,7 +20,11 @@
     "functions": "node --watch ./functions.js",
     "suma-intervale": "node --watch ./suma-intervale.js",
     "type-of": "node --watch ./type-of.js",
-    "string-reverse": "node --watch ./string-reverse"
+    "string-reverse": "node --watch ./string-reverse",
+    "for-of": "node --watch ./ciklai/for-of",
+    "while": "node --watch ./ciklai/while",
+    "for-in": "node --watch ./ciklai/for-in"
+
 
 
 

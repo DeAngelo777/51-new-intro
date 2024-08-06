@@ -52,6 +52,9 @@ if (end < start) {
         sum += i;
     }
 }
+
+//Papildyti logika, truksta 1 uzduoti, (august 6)
+
     //3. Logikoje gauto rezultato validavimas
     //if jeigu yra string neduoti rezultato (nes dabar duoda 0),
     //, jeigu skaicius viskas ok 
