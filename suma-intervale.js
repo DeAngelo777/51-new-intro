@@ -38,12 +38,20 @@ if (end < start) {
 }
 
     // 2. Logika
+
     let sum = 0;
-    
-    
+    if (start === 0) {
+        sum = end * (end + 1) /2;
+    } else if (end === 0) {
+        sum = start * (start -1) /2;
+    } else if (start < 0 && end > 0) {
+        sum += start * (start - 1) / 2;
+    }
+    else {
     for (let i = start; i <= end; i++){
         sum += i;
     }
+}
     //3. Logikoje gauto rezultato validavimas
     //if jeigu yra string neduoti rezultato (nes dabar duoda 0),
     //, jeigu skaicius viskas ok 
@@ -78,6 +86,7 @@ console.log(sumaIntervale(5, undefined));
 console.log(sumaIntervale(undefined, 5));
 console.log(sumaIntervale(undefined, undefined));
 console.log(sumaIntervale(5, sumaIntervale));
+console.log(sumaIntervale(sumaIntervale, sumaIntervale));
 console.log(sumaIntervale(sumaIntervale, 5));
 console.log(sumaIntervale(5, Infinity));
 console.log(sumaIntervale(Infinity, 5));
@@ -92,7 +101,6 @@ console.log(sumaIntervale(-NaN, -NaN));
 
 
 
-console.log(sumaIntervale(sumaIntervale, sumaIntervale));
 // console.log(sumaIntervale(10, 5, 50));
 console.log(sumaIntervale(1));
 console.log(sumaIntervale());
@@ -124,8 +132,15 @@ console.log(sumaIntervale(-70, 30), '-->', -2020);
 console.log(sumaIntervale(574, 815), '-->', 'didesnis skaicius');
 console.log(sumaIntervale(0, 0), '-->', 0);
 
+console.log(sumaIntervale(0, 10), '-->', 55);
+console.log(sumaIntervale(0, 100), '-->', 5050);
+console.log(sumaIntervale(0, 1000), '-->', 500500);
+console.log(sumaIntervale(0, 10_000), '-->', 50005000);
+console.log(sumaIntervale(0, 100_000), '-->', 5000000050000000);
+console.log(sumaIntervale(0, 1_000_000_000), '-->', 500000000500000000);
+console.log(sumaIntervale(0, 10_000_000_000), '-->', 5000000000050000000000);
 
-
+// CPU -> 1 core -> 3GHz - > 3 mljrd - > 10 mljrd > 3
 
 
 
