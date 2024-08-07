@@ -146,5 +146,21 @@ console.log(sumaIntervale(0, 10_000_000_000), '-->', 5000000000050000000000);
 // CPU -> 1 core -> 3GHz - > 3 mljrd - > 10 mljrd > 3
 
 
+console.log('--------');
 
+
+console.log(sumaIntervale(0, 4), '-->', 10);
+console.log(sumaIntervale(-50, 50), '-->', 0);
+console.log(sumaIntervale(0, 100), '-->', 5050);
+console.log(sumaIntervale(-70, 30), '-->', -2020);
+console.log(sumaIntervale(574, 815), '-->', 'didesnis skaicius');
+console.log(sumaIntervale(0, 0), '-->', 0);
+
+console.log(sumaIntervale(0, 10), '-->', 55);
+console.log(sumaIntervale(0, 100), '-->', 5050);
+console.log(sumaIntervale(0, 1000), '-->', 500500);
+console.log(sumaIntervale(0, 10_000), '-->', 50005000);
+console.log(sumaIntervale(0, 100_000), '-->', 5000000050000000);
+console.log(sumaIntervale(0, 1_000_000_000), '-->', 500000000500000000);
+console.log(sumaIntervale(0, 10_000_000_000), '-->', 5000000000050000000000);
 

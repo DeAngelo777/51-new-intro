@@ -23,7 +23,9 @@
     "string-reverse": "node --watch ./string-reverse",
     "for-of": "node --watch ./ciklai/for-of",
     "while": "node --watch ./ciklai/while",
-    "for-in": "node --watch ./ciklai/for-in"
+    "for-in": "node --watch ./ciklai/for-in",
+    "function": "node --watch ./function/script.js"
+
 
 
 
