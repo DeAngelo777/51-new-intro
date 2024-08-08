@@ -148,7 +148,7 @@ console.log(sumaIntervale(0, 10_000_000_000), '-->', 5000000000050000000000);
 
 console.log('--------');
 
-
+// Pabaigti
 console.log(sumaIntervale(0, 4), '-->', 10);
 console.log(sumaIntervale(-50, 50), '-->', 0);
 console.log(sumaIntervale(0, 100), '-->', 5050);
