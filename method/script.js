@@ -206,19 +206,32 @@ console.log('Labas'.includes('Lab'));
 console.log('Labas'.includes('lab'));
 console.log('Labas'.includes('bas'));
 
-// Perziureti po paskaitos
-// console.log(String.prototype.indexOf);
 
-// console.log('Labas'.indexOf('X'));
-// console.log('Labas'.indexOf('C'));
-// console.log('Labas'.indexOf('a'));
-// console.log('III');
-// console.log('Labas'.indexOf('b'));
-// console.log('Labas'.indexOf('ab'));
-// console.log('Labas'.indexOf('ba'));
-// console.log('Labas'.indexOf('Lab'));
-// console.log('Labas'.indexOf('lab'));
-// console.log('Labas'.indexOf('bas'));
+console.log(String.prototype.indexOf);
+// -1 reiškia nerado
+console.log('Labas'.indexOf('X'));
+console.log('Labas'.indexOf('c'));
+console.log('Labas'.indexOf('a'));
+console.log('Labas'.indexOf('b'));
+console.log('Labas'.indexOf('ab'));
+console.log('Labas'.indexOf('ba'));
+console.log('Labas'.indexOf('Lab'));
+console.log('Labas'.indexOf('lab'));
+console.log('Labas'.indexOf('bas'));
+
+console.log('Vasara'.indexOf('a'));
+console.log('Vasara'.indexOf('a', 2));
+console.log('Vasara'.indexOf('a', 4))
+console.log('----');;
+console.log('Pomidoras'.indexOf('o', 1));
+console.log('Pomidoras'.indexOf('o', 2));
+console.log('Pomidoras'.indexOf('o',3 ));
+console.log('Pomidoras'.indexOf('o',4));
+console.log('Pomidoras'.indexOf('o', 5));
+console.log('Pomidoras'.indexOf('o', 6));
+
+
+
 
 
 console.log(String.prototype.repeat);
@@ -415,28 +428,7 @@ console.log(`"${'           a   b        '.trim()}"`);
 console.log(`"${'           b   b       '.trimStart()}"`);
 console.log(`"${'           b   b     '.trimEnd()}"`);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log('object');
 
 
 
