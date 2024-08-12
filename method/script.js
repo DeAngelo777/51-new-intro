@@ -232,8 +232,6 @@ console.log('Pomidoras'.indexOf('o', 6));
 
 
 
-
-
 console.log(String.prototype.repeat);
 console.log('Labas'.repeat(1));
 console.log('Labas'.repeat(2));

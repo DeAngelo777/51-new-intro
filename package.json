@@ -26,18 +26,8 @@
     "for-in": "node --watch ./ciklai/for-in",
     "function": "node --watch ./function/script.js",
     "number": "node --watch ./function/number.js",
-    "script": "node --watch ./method/script.js"
-
-
-
-
-
-
-
-
-
-
-
+    "script": "node --watch ./method/script.js",
+    "array": "node --watch ./method/array.js"
 
   },
   "author": "Your Name",
