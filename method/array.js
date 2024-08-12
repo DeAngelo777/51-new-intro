@@ -1,5 +1,7 @@
 // Array
 
+const { ClientPageRoot } = require("next/dist/client/components/client-page");
+
 console.log(Array.isArray);
 
 
@@ -163,3 +165,31 @@ for (const pazymys of jonoPazymiai) {
 
 console.log(jonoPazymiai);
 console.log(geresnJonoPazymiai);
+
+
+console.clear();
+
+console.log(Array.prototype.map);
+
+const a = [10, 2, 8, 4, 6];
+console.log(a);
+const a2 = a.map(n => n * 2);
+console.log(a2);
+const a3 = a.map(n => n+3);
+console.log(a3);
+
+
+const a32 = a.map((n) => n+3);
+console.log(a32);
+
+const a34 = a.map((n) => { return n + 3});
+console.log(a34);
+
+
+const a33 = a.map(function (n) { return n + 3});
+console.log(a33);
+
+function plusThree(n) {
+    return n + 3;
+}
+

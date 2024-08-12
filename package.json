@@ -27,7 +27,11 @@
     "function": "node --watch ./function/script.js",
     "number": "node --watch ./function/number.js",
     "script": "node --watch ./method/script.js",
-    "array": "node --watch ./method/array.js"
+    "array": "node --watch ./method/array.js",
+    "array-map": "node --watch ./method/array-map.js",
+    "array-filter": "node --watch ./method/array-filter.js"
+
+
 
   },
   "author": "Your Name",
